@@ -1,9 +1,9 @@
 // import React, { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import MoviesPage from './Pages/MoviesPage';
 import Layout from './Layout/Layout';
-import HomePage from './Pages/HomePage';
+import HomePage from 'pages/HomePage';
+import MoviesPage from 'pages/MoviesPage';
 
 const App = () => {
   return (
